@@ -13,7 +13,6 @@ const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
   dropdowns.forEach((dropdown, index) => {
     const dropdownBtn = dropdown.querySelector('.dropdown-btn');
     const arrow = dropdown.querySelector('.arrow-down img');
-
     dropdownBtn.addEventListener('click', (e) => {
       e.preventDefault();
 
